@@ -1,0 +1,7 @@
+1) Pered kopirowaniem Repository iz github.com neobchodimo ybeditsa, chto my obladaem ssh kluchem. 
+Nado snachala vojti v Repository a potom najti v nem zelenyju knopku Code, nazhat i vybrat ssh. Dalee skopirowat ssh kod. Sledyjushij shag: na komputere v terminale git neobchodimo nabrat komandu git clone i dobavit skopirowany ssh kluch. Gotovo! 
+2) sozdanie git repozitoria na PK: komanda  mkdir, git init, git status, git add, git commit -m, git status, git log. Idem v github.com, tam sozdaem novy Repository, i dalee komanda git remote add...+ ssh kluch.
+3) cherez komandu git pull
+4)  git status pokazyv chto nashy commity ewe ne otpravleny na ydalenny Repository ili chto ne bylo obnovlenia iz togo Repositoria
+git log pokazyvaet nashy istoriu v lokalnom repositorii
+git remote -v pokazyvaet spisok ydalennych repositoriev kotorye yzhe svjazany s nashym lokalnym repozitoriem
